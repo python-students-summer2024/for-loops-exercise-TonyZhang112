@@ -25,10 +25,10 @@ print(
 # ask the user to guess a number between 1 and 10... give them 5 attempts
 from number_guessing import guess_number
 
-if guess_number(1, 10, 5):
-    print("You guessed correctly!")  # they guessed correctly!
-else:
-    print("Sorry, all your guesses were incorrect!")  # they guessed incorrectly!
+#if guess_number(1, 10, 5):
+    #print("You guessed correctly!")  # they guessed correctly!
+#else:
+    #print("Sorry, all your guesses were incorrect!")  # they guessed incorrectly!
 
 
 # #### FOR LOOPING TURTLES ####
@@ -36,7 +36,7 @@ else:
 from loopy_turtles import create_turtle, draw_square, draw_star
 
 t = create_turtle("red", "yellow")  # create a turtle object
-for x in range(-200, 0, 25):  # loop four times
-    draw_square(t, x, x, 100, "left", "#F5DEB3")  # draw a square
+#for x in range(-200, 0, 25):  # loop four times
+    #draw_square(t, x, x, 100, "left", "#F5DEB3")  # draw a square
 
-draw_star(t, 200, 200, 100, 120, "right", "red")  # draw a five-pointed star
+draw_star(t, 200, 200, 20, 120, "left", "red")  # draw a five-pointed star
